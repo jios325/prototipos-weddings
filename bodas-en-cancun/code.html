@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Guía de Bodas de Destino - O Weddings</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&amp;family=Montserrat:wght@300;400;500;600&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2bbdc5",
+                        "primary-dark": "#239aa0",
+                        "secondary": "#C5A02B", 
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#121f20",
+                        "navy": "#0f191a",
+                        "sand": "#e9f1f2"
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "serif": ["Cormorant Garamond", "serif"],
+                        "sans": ["Montserrat", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for sidebar */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .drop-cap {
+            float: left;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 4.5rem;
+            line-height: 0.8;
+            padding-right: 0.75rem;
+            padding-top: 0.25rem;
+            color: #C5A02B; /* Gold */
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-navy dark:text-slate-100 font-display antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navbar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-sand bg-white/95 backdrop-blur-sm px-6 py-4 md:px-10 lg:px-40">
+<div class="flex items-center gap-4 text-navy dark:text-white">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-3xl">diamond</span>
+</div>
+<h2 class="text-navy dark:text-white text-xl font-serif font-bold tracking-wide">O Weddings</h2>
+</div>
+<!-- Desktop Menu -->
+<div class="hidden lg:flex flex-1 justify-end gap-8 items-center">
+<nav class="flex items-center gap-8">
+<a class="text-navy dark:text-slate-200 text-sm font-medium hover:text-primary transition-colors" href="#">Destino</a>
+<a class="text-navy dark:text-slate-200 text-sm font-medium hover:text-primary transition-colors" href="#">Locaciones</a>
+<a class="text-navy dark:text-slate-200 text-sm font-medium hover:text-primary transition-colors" href="#">Ceremonias</a>
+<a class="text-navy dark:text-slate-200 text-sm font-medium hover:text-primary transition-colors" href="#">Planea tu Boda</a>
+<a class="text-navy dark:text-slate-200 text-sm font-medium hover:text-primary transition-colors" href="#">Guía de Costos</a>
+</nav>
+<button class="flex min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary hover:bg-primary-dark transition-colors text-white text-sm font-bold tracking-wide shadow-md">
+<span class="truncate">Comienza a Planear</span>
+</button>
+</div>
+<!-- Mobile Menu Icon -->
+<div class="lg:hidden text-navy dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</div>
+</header>
+<!-- Main Content Wrapper -->
+<div class="flex flex-col flex-1">
+<!-- Hero Section -->
+<div class="relative h-[80vh] min-h-[600px] w-full bg-cover bg-center bg-no-repeat flex items-center justify-center" data-alt="Aerial view of turquoise Caribbean ocean waves crashing on white sand beach" style="background-image: linear-gradient(rgba(15, 25, 26, 0.3) 0%, rgba(15, 25, 26, 0.6) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuA6aeSRyUMK8vyFS2Jj8hsm5fxSLMDhQfkde957gajQo_u_YP8XdkWIPoCxTnl8x6BBH21UBKAo4PcV5v16DG-COP73z0ogzhfzLcpFjNnx2VgpnIVQXMXB1sUz0WFOaE3hdS3crvNeW7kszW6FitKCWUVIbggAT_zpUQH-IFA8mKnEYnu0fpwWPdqCwyJjxbcEieBQ-DeGHNtzBpQgDVfORiMPAFUr89FP7KRGy1aiy6YdBbGqHWbjW6We2TnGv5PkxgrEt557D9Gy');">
+<div class="max-w-4xl px-6 text-center animate-fade-in-up">
+<span class="inline-block py-1 px-3 mb-6 border border-secondary/50 rounded-full bg-black/20 backdrop-blur-md text-secondary text-xs font-bold tracking-[0.15em] uppercase">
+                        Guía de Destino
+                    </span>
+<h1 class="text-white font-serif text-5xl md:text-7xl font-medium leading-tight tracking-tight mb-6 drop-shadow-lg">
+                        Bodas de Destino en Cancún
+                    </h1>
+<p class="text-white/90 font-sans text-lg md:text-xl font-light max-w-2xl mx-auto leading-relaxed drop-shadow-md">
+                        Donde el Caribe se encuentra con la celebración: todo lo que necesitas saber para dar el "sí" en el paraíso más icónico de México.
+                    </p>
+</div>
+<!-- Scroll Indicator -->
+<div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white/70 animate-bounce">
+<span class="material-symbols-outlined text-3xl">keyboard_arrow_down</span>
+</div>
+</div>
+<!-- Content Container -->
+<div class="flex flex-col lg:flex-row max-w-[1280px] mx-auto w-full px-6 py-12 lg:px-10 lg:py-20 gap-12">
+<!-- Sticky Sidebar (Table of Contents) -->
+<aside class="hidden lg:block w-64 flex-shrink-0">
+<div class="sticky top-28 flex flex-col gap-6">
+<h3 class="text-navy dark:text-white text-xs font-bold tracking-widest uppercase text-opacity-50 border-b border-sand pb-2">En Esta Guía</h3>
+<nav class="flex flex-col gap-1">
+<a class="group flex items-center gap-3 px-3 py-2 rounded-lg bg-sand/50 text-primary font-medium transition-colors" href="#intro">
+<span class="material-symbols-outlined text-xl">book_2</span>
+<span class="text-sm">Introducción</span>
+</a>
+<a class="group flex items-center gap-3 px-3 py-2 rounded-lg text-slate-500 hover:text-navy hover:bg-slate-50 transition-colors" href="#why-cancun">
+<span class="material-symbols-outlined text-xl">wb_sunny</span>
+<span class="text-sm">Por Qué Cancún</span>
+</a>
+<a class="group flex items-center gap-3 px-3 py-2 rounded-lg text-slate-500 hover:text-navy hover:bg-slate-50 transition-colors" href="#best-time">
+<span class="material-symbols-outlined text-xl">calendar_month</span>
+<span class="text-sm">La Mejor Época</span>
+</a>
+<a class="group flex items-center gap-3 px-3 py-2 rounded-lg text-slate-500 hover:text-navy hover:bg-slate-50 transition-colors" href="#locations">
+<span class="material-symbols-outlined text-xl">location_on</span>
+<span class="text-sm">Locaciones</span>
+</a>
+<a class="group flex items-center gap-3 px-3 py-2 rounded-lg text-slate-500 hover:text-navy hover:bg-slate-50 transition-colors" href="#all-inclusive">
+<span class="material-symbols-outlined text-xl">star</span>
+<span class="text-sm">Todo Incluido</span>
+</a>
+</nav>
+<div class="mt-8 p-6 bg-navy rounded-xl text-white">
+<h4 class="font-serif text-xl mb-2 text-secondary">¿Necesitas ayuda?</h4>
+<p class="text-sm text-slate-300 mb-4 font-light">Nuestros especialistas en bodas están listos para asistirte.</p>
+<button class="w-full py-2 bg-white text-navy text-xs font-bold uppercase tracking-wider rounded hover:bg-slate-100 transition-colors">Contactar</button>
+</div>
+</div>
+</aside>
+<!-- Main Article Content -->
+<main class="flex-1 flex flex-col gap-16 lg:gap-24">
+<!-- Introduction -->
+<section class="relative" id="intro">
+<div class="prose prose-lg prose-slate max-w-none">
+<p class="text-lg md:text-xl leading-relaxed text-slate-600 dark:text-slate-300 font-light">
+<span class="drop-cap">E</span>n Oasis cada boda es una celebración única y cada romance es motivo de gran alegría. Cancún se ha convertido en uno de los destinos de boda más buscados no solo por sus playas de arena blanca y aguas turquesas, sino por la infraestructura de clase mundial que ofrece a las parejas y sus invitados. Desde ceremonias íntimas al atardecer hasta grandes recepciones bajo las estrellas, este rincón del Caribe mexicano lo tiene todo.
+                            </p>
+</div>
+</section>
+<!-- Why Cancun -->
+<section class="scroll-mt-28" id="why-cancun">
+<div class="flex items-center gap-4 mb-8">
+<span class="h-px flex-1 bg-sand"></span>
+<h2 class="font-serif text-3xl md:text-4xl text-navy dark:text-white text-center">Por Qué Cancún</h2>
+<span class="h-px flex-1 bg-sand"></span>
+</div>
+<p class="text-center text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto">
+                            Más allá de la belleza natural, la conectividad y el clima hacen de este destino la elección lógica para bodas internacionales.
+                        </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col items-center text-center p-8 rounded-xl bg-white dark:bg-slate-800 border border-sand dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<div class="size-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-2xl">flight_takeoff</span>
+</div>
+<h3 class="text-lg font-bold text-navy dark:text-white mb-1">Vuelos Directos</h3>
+<p class="text-3xl font-serif text-primary mb-2">50+</p>
+<p class="text-sm text-slate-500">Ciudades conectadas globalmente</p>
+</div>
+<div class="flex flex-col items-center text-center p-8 rounded-xl bg-white dark:bg-slate-800 border border-sand dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<div class="size-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">wb_sunny</span>
+</div>
+<h3 class="text-lg font-bold text-navy dark:text-white mb-1">Días de Sol</h3>
+<p class="text-3xl font-serif text-secondary mb-2">330</p>
+<p class="text-sm text-slate-500">Días soleados al año promedio</p>
+</div>
+<div class="flex flex-col items-center text-center p-8 rounded-xl bg-white dark:bg-slate-800 border border-sand dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<div class="size-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-2xl">thermostat</span>
+</div>
+<h3 class="text-lg font-bold text-navy dark:text-white mb-1">Temperatura</h3>
+<p class="text-3xl font-serif text-primary mb-2">27°C</p>
+<p class="text-sm text-slate-500">Promedio anual perfecto</p>
+</div>
+</div>
+</section>
+<!-- Best Time -->
+<section class="scroll-mt-28" id="best-time">
+<div class="flex items-center gap-4 mb-8">
+<span class="h-px flex-1 bg-sand"></span>
+<h2 class="font-serif text-3xl md:text-4xl text-navy dark:text-white text-center">La Mejor Época</h2>
+<span class="h-px flex-1 bg-sand"></span>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-xl border border-sand dark:border-slate-700 p-8">
+<div class="flex flex-wrap gap-4 justify-center mb-8 text-sm">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-[#C5A02B]"></span>
+<span class="text-slate-600 dark:text-slate-300">Temporada Alta (Seca/Fresca)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-[#2bbdc5]"></span>
+<span class="text-slate-600 dark:text-slate-300">Temporada Media (Cálida)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-slate-300"></span>
+<span class="text-slate-600 dark:text-slate-300">Temporada de Lluvias (Húmeda)</span>
+</div>
+</div>
+<!-- Calendar Grid -->
+<div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+<!-- Months -->
+<div class="flex flex-col items-center p-3 rounded bg-secondary/10 border border-secondary/20">
+<span class="font-bold text-secondary">ENE</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-secondary/10 border border-secondary/20">
+<span class="font-bold text-secondary">FEB</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-secondary/10 border border-secondary/20">
+<span class="font-bold text-secondary">MAR</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-secondary/10 border border-secondary/20">
+<span class="font-bold text-secondary">ABR</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-primary/10 border border-primary/20">
+<span class="font-bold text-primary">MAY</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-primary/10 border border-primary/20">
+<span class="font-bold text-primary">JUN</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-primary/10 border border-primary/20">
+<span class="font-bold text-primary">JUL</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-primary/10 border border-primary/20">
+<span class="font-bold text-primary">AGO</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-slate-100 dark:bg-slate-700 border border-slate-200 dark:border-slate-600">
+<span class="font-bold text-slate-500">SEP</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-slate-100 dark:bg-slate-700 border border-slate-200 dark:border-slate-600">
+<span class="font-bold text-slate-500">OCT</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-secondary/10 border border-secondary/20">
+<span class="font-bold text-secondary">NOV</span>
+</div>
+<div class="flex flex-col items-center p-3 rounded bg-secondary/10 border border-secondary/20">
+<span class="font-bold text-secondary">DIC</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Locations -->
+<section class="scroll-mt-28" id="locations">
+<div class="flex items-center gap-4 mb-8">
+<span class="h-px flex-1 bg-sand"></span>
+<h2 class="font-serif text-3xl md:text-4xl text-navy dark:text-white text-center">Locaciones Soñadas</h2>
+<span class="h-px flex-1 bg-sand"></span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 h-auto md:h-[400px]">
+<!-- Card 1 -->
+<div class="group relative overflow-hidden rounded-xl h-[300px] md:h-full w-full cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Elegant rooftop terrace decorated for a wedding with ocean view" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAaO2Qu_6uas73LsgNdCD1u6rI8bC0QmevzIegIIwM9R_cNzdDa9r0UB0n3BHPBxfswu4Jfpidh71wBKCK3owRK5nuDU-uR0Tf0ibMy8_cvvIhfl5Fkua7_kXEOzDoHmtRsX8nIrmS9oNwHMuy82p_OQhvFFblU9bpIdgML2KmynKV8dE4056XCQAFkh82GttiD4Te60E_ADkDsX_sv8m3Qe1yKtdM8OiXMzlREoyZQSeHcdFVqA54syt7CpJMQNjUyfLIjddu76wUj');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90"></div>
+<div class="absolute bottom-0 left-0 p-6 text-white transform transition-transform duration-300 group-hover:-translate-y-2">
+<h3 class="font-serif text-2xl font-medium mb-1">Elegancia Elevada</h3>
+<p class="text-sm font-light text-white/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">Terrazas con vistas panorámicas</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group relative overflow-hidden rounded-xl h-[300px] md:h-full w-full cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Wedding arch on a white sandy beach with turquoise water background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPWygITn5HSWH9aIaZtJhrvCY95c_qGycTOSo4a5TLGbDhsyaUVgTum10D4laVXaj3PC-GvWsrFiUqdSYyRS-PlAuNCSVg2lPHzbmrqomJgbKHOVejddjIKsSXMgi7oJxtFLXSB_mpLwM_-zAi7PO6231IlwEicUmiXRso3w4NwjoZno6_aJn5jrmCJprWmcj01tXXr7IHSTY9hofT9COtKSb7Qxx3Q_hNo6N7c8AwHJC3Ngy-TPe-3seRhHVVvPU-h5Qnirix3H-S');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90"></div>
+<div class="absolute bottom-0 left-0 p-6 text-white transform transition-transform duration-300 group-hover:-translate-y-2">
+<h3 class="font-serif text-2xl font-medium mb-1">Pies Descalzos</h3>
+<p class="text-sm font-light text-white/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">La magia de la playa al atardecer</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group relative overflow-hidden rounded-xl h-[300px] md:h-full w-full cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Luxurious indoor ballroom with chandeliers and floral arrangements" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDSvOaT_UlfLkMOfy38nRQob_fQKn-Dmv9MATrdI2bLCyVM_xkPBJEbSWu97pmqE6Yqg9a15LiVFfTkhWvgkOQp43XNSzwbYjNSjiYDoCdVlj6f5osPLyQPVF32JacGF0AiKG38uN_XiMC0F1-UB9BZel4uqzcLXW5_7YlCPdn5FANDCnFDOIPNAA1fZVO_4vUXZYGY_k3XWKkh7pYmsMhQBroMgtcknbwe_uAVuZJP4WM8G10ttZppxszHA0bXqWXCr0V2od-d1k-C');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90"></div>
+<div class="absolute bottom-0 left-0 p-6 text-white transform transition-transform duration-300 group-hover:-translate-y-2">
+<h3 class="font-serif text-2xl font-medium mb-1">Grandes Celebraciones</h3>
+<p class="text-sm font-light text-white/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">Salones majestuosos y aire acondicionado</p>
+</div>
+</div>
+</div>
+</section>
+<!-- All Inclusive -->
+<section class="scroll-mt-28 mb-20" id="all-inclusive">
+<div class="flex items-center gap-4 mb-8">
+<span class="h-px flex-1 bg-sand"></span>
+<h2 class="font-serif text-3xl md:text-4xl text-navy dark:text-white text-center">Todo Incluido</h2>
+<span class="h-px flex-1 bg-sand"></span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Inclusions Card 1 -->
+<div class="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-sm border-t-4 border-primary">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined">hotel</span>
+</div>
+<h3 class="font-serif text-xl font-semibold mb-3">Hospedaje</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    Habitaciones de lujo para la pareja y tarifas preferenciales para todos tus invitados en el mismo resort.
+                                </p>
+</div>
+<!-- Inclusions Card 2 -->
+<div class="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-sm border-t-4 border-secondary">
+<div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center text-secondary mb-6">
+<span class="material-symbols-outlined">celebration</span>
+</div>
+<h3 class="font-serif text-xl font-semibold mb-3">Celebración</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    Montaje de ceremonia, banquete privado, barra libre premium, pastel de bodas y decoración floral básica.
+                                </p>
+</div>
+<!-- Inclusions Card 3 -->
+<div class="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-sm border-t-4 border-primary">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined">spa</span>
+</div>
+<h3 class="font-serif text-xl font-semibold mb-3">Experiencia</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    Coordinador de bodas dedicado, descuentos en spa, cena romántica para la pareja y amenidades VIP.
+                                </p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<!-- Final CTA Section -->
+<section class="bg-navy py-16 md:py-24 px-6 text-center relative overflow-hidden">
+<!-- Decorative background elements -->
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-secondary to-transparent"></div>
+<div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+<div class="relative z-10 max-w-3xl mx-auto">
+<span class="material-symbols-outlined text-4xl text-secondary mb-4">favorite</span>
+<h2 class="font-serif text-4xl md:text-5xl text-white mb-6">¿Listo para comenzar a planear?</h2>
+<p class="text-slate-300 text-lg mb-10 font-light">
+                        Convierte tu sueño en realidad. Nuestro equipo de expertos está listo para guiarte en cada paso.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="px-8 py-4 bg-primary hover:bg-primary-dark text-white rounded-lg font-bold tracking-wide transition-all transform hover:scale-105 shadow-lg shadow-primary/30">
+                            SOLICITAR PROPUESTA
+                        </button>
+<button class="px-8 py-4 bg-transparent border border-white text-white hover:bg-white hover:text-navy rounded-lg font-bold tracking-wide transition-all">
+                            EXPLORAR LOCACIONES
+                        </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-background-dark text-slate-400 py-10 px-6 border-t border-slate-800">
+<div class="max-w-[1280px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">diamond</span>
+<span class="font-serif font-bold text-white">O Weddings</span>
+</div>
+<div class="text-sm">
+                        © 2024 Oasis Hotels &amp; Resorts. Todos los derechos reservados.
+                    </div>
+<div class="flex gap-4">
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<script>
+        // Simple script to handle smooth scrolling offset for sticky header
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body></html>
