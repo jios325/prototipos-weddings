@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Wedding Venues | O Weddings by Oasis</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#ec5b13", // Branding energy
+              "navy": "#1B2A4A",
+              "teal": "#2BBCC4",
+              "sand": "#F5F0EB",
+              "gold": "#C9A96E",
+              "background-light": "#f8f6f6",
+              "background-dark": "#1B2A4A",
+            },
+            fontFamily: {
+              "display": ["Public Sans", "sans-serif"],
+              "serif": ["Cormorant Garamond", "serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Public Sans', sans-serif; }
+        .font-serif { font-family: 'Cormorant Garamond', serif; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+<!-- 1. NAVBAR -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/95 dark:bg-navy/95 border-b border-gold/20 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-gold text-3xl">diamond</span>
+<h1 class="font-serif text-2xl font-bold tracking-tight text-navy dark:text-white uppercase">O Weddings</h1>
+</div>
+<div class="hidden lg:flex items-center gap-8">
+<a class="text-xs font-semibold uppercase tracking-widest hover:text-teal transition-colors" href="#">Destination</a>
+<a class="text-xs font-semibold uppercase tracking-widest text-teal" href="#">Venues</a>
+<a class="text-xs font-semibold uppercase tracking-widest hover:text-teal transition-colors" href="#">Ceremonies</a>
+<a class="text-xs font-semibold uppercase tracking-widest hover:text-teal transition-colors" href="#">Plan Your Wedding</a>
+<a class="text-xs font-semibold uppercase tracking-widest hover:text-teal transition-colors" href="#">Cost Guide</a>
+</div>
+<button class="bg-teal hover:bg-teal/90 text-white px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest transition-all">
+                Start Planning
+            </button>
+</div>
+</nav>
+<!-- 2. HERO SECTION -->
+<section class="relative h-[75vh] mt-20 flex overflow-hidden">
+<div class="w-1/2 h-full relative group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Elegant luxury terrace wedding ceremony setup" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDzbMLMEDwBH4LIaQJW7Bw5jwOs4CQjZm5yrxXlpXxPo3uyq9xA2M89zCWIpuV44xP2DQrjfw9du3USSisxjo_HZ5443M83-Dszbiufd4grHDT4TwyTrHKCgcLnneHUE-VUYeU82QvNyupg_EraLHhbM5tYeRD-rBw1Bn3mvTe7KJjNwxCLYbEpvxEzJY-WpbCkGeHN6Sbwc83YrYF4ICZzj7iaf71mkwUD-dvj1x8Vp8OxLhWQ-G_d1S8c6YfIsy39MLLBNmS54J_u')"></div>
+<div class="absolute inset-0 bg-black/20"></div>
+</div>
+<div class="absolute inset-y-0 left-1/2 w-px bg-white/40 z-10 hidden md:block"></div>
+<div class="w-1/2 h-full relative group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Romantic beach wedding ceremony at sunset" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAa0ItsUXqeUaJWx3NtluxHMynaVUVPPgWJgz-tmkCVSHatygHxtvy8GyjSHxY2MZaFTJ6uio41nekjORFhJrqNZxQrpMoI6Z0bntDfKtDr045DdsHwOOw-Gfs-u3SRiXbaV-rqkRaKknk3Mdn8cm3S0R04-kbEgZM1-gB1Lhqcf3jdHSSoRw0S-7huw2-FyO1WU5WWu0JxfFEDtefS4QPc4VDobX2K4v6Lia2JHQUwK8QvvZ3v0d8cOFeg8D5kl8uJUO3Z-jpGoJEn')"></div>
+<div class="absolute inset-0 bg-black/20"></div>
+</div>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-20 pointer-events-none">
+<span class="text-gold font-bold tracking-[0.4em] text-sm mb-4 uppercase">Our Venues</span>
+<h2 class="font-serif text-white text-5xl md:text-7xl mb-6 drop-shadow-lg">Spaces That Inspire Celebration</h2>
+<p class="text-white/90 max-w-2xl text-lg font-light leading-relaxed drop-shadow-md">
+                Discover our four beachfront resorts in the heart of Cancun, designed for extraordinary love stories.
+            </p>
+</div>
+</section>
+<!-- 3. INTRO & FILTERS -->
+<section class="py-20 px-6 bg-white dark:bg-navy">
+<div class="max-w-4xl mx-auto text-center mb-12">
+<h3 class="font-serif text-3xl md:text-4xl text-navy dark:text-white mb-6">Diversity of Venues</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+                From intimate beachfront ceremonies to grand ballroom celebrations, discover the perfect backdrop for your love story across our unique luxury properties.
+            </p>
+</div>
+<div class="flex flex-wrap justify-center gap-3">
+<button class="px-6 py-2 rounded-full border border-teal bg-teal text-white text-sm font-medium">All Venues</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-teal hover:text-teal transition-all text-sm font-medium">Luxury</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-teal hover:text-teal transition-all text-sm font-medium">Terrace</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-teal hover:text-teal transition-all text-sm font-medium">Beach</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-teal hover:text-teal transition-all text-sm font-medium">Intimate</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-teal hover:text-teal transition-all text-sm font-medium">Grand</button>
+</div>
+</section>
+<!-- 4. VENUE 1 - THE PYRAMID CANCUN -->
+<section class="flex flex-col md:flex-row min-h-[600px]">
+<div class="w-full md:w-[60%] h-96 md:h-auto bg-cover bg-center" data-alt="Luxury resort architecture of The Pyramid Cancun" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCyhI5DK5zCOEibXk-Vdln-PhgaB8ArG7FGcfQwyWTWpCgDOwaJN7DcxUgv3sYHWQigzfx5IioscUnAeuQEp8AwhX8k6wQOYinC4ExKIbyMvdCPYVLuxkL3SvYpndMPFGKX7zSOZ9qjYVYeDBBwhnAHF92d7WcKfUGn7JPp18LHycMSkBcc4Xk2qS5IOqKtYxmI4K0I6uxkwzQAVy6VUmr_vlbYBBA7u1UWZo7zGos2MKgKskSKMGlGpM5zyER-ZA5KcJwVlpyEWXjS')"></div>
+<div class="w-full md:w-[40%] bg-sand dark:bg-navy/50 p-12 md:p-20 flex flex-col justify-center">
+<span class="inline-block bg-navy text-white text-[10px] font-bold tracking-widest uppercase px-3 py-1 mb-6 rounded-sm w-fit">Luxury Flagship</span>
+<h3 class="font-serif text-4xl text-navy dark:text-white mb-6">The Pyramid Cancun</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8">
+                Our flagship property offers a sophisticated blend of ancient inspiration and modern luxury. With panoramic Caribbean views and world-class gourmet dining, it's the ultimate destination for high-end celebrations.
+            </p>
+<div class="grid grid-cols-2 gap-6 mb-10">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">deck</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Terrace</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">beach_access</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Private Beach</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">restaurant</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Gourmet Dining</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">spa</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Bridal Suite</span>
+</div>
+</div>
+<button class="border-b-2 border-teal text-teal font-bold text-sm tracking-widest uppercase pb-1 hover:text-navy dark:hover:text-white transition-all w-fit">Explore Venue</button>
+</div>
+</section>
+<!-- 5. VENUE 2 - THE SENS CANCUN (Reversed) -->
+<section class="flex flex-col md:flex-row-reverse min-h-[600px]">
+<div class="w-full md:w-[60%] h-96 md:h-auto bg-cover bg-center" data-alt="Intimate adults only luxury hotel pool area" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCSMp7HQ1eVur5Haz_As0Rz_Hrc1FcifyU2NlTMM2IqB1b20Qa770psl36xF6tubyEwy8O0C3eRt8ir4HYAEIplRoov5dWZM9Kuj0bB6A4Rx0NjjNZYhFAGKkXXSUbNJcRUvKazJzwzRh-XxCpLv3K7zmjGsJ5_OyrC1Szqe9wYiEWvownQLbCA9coIhIOEgCP5Hbf0v086IPU1rEv5pc38J2ES2iuoF28ECwNj5gc8onNL8wD-TpsKcAHOszfXCZGVhEDZzilONaON')"></div>
+<div class="w-full md:w-[40%] bg-white dark:bg-navy p-12 md:p-20 flex flex-col justify-center">
+<span class="inline-block bg-navy text-white text-[10px] font-bold tracking-widest uppercase px-3 py-1 mb-6 rounded-sm w-fit">Adults Oriented</span>
+<h3 class="font-serif text-4xl text-navy dark:text-white mb-6">The Sens Cancun</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8">
+                An intimate oasis designed for sophisticated romance. The Sens provides a serene, adults-oriented atmosphere perfect for bespoke ceremonies and elegant evening receptions.
+            </p>
+<div class="grid grid-cols-2 gap-6 mb-10">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">nightlight</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Intimate Vibes</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">wine_bar</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Specialty Bars</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">favorite</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Romantic Spots</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">self_care</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Luxury Spa</span>
+</div>
+</div>
+<button class="border-b-2 border-teal text-teal font-bold text-sm tracking-widest uppercase pb-1 hover:text-navy dark:hover:text-white transition-all w-fit">Explore Venue</button>
+</div>
+</section>
+<!-- 6. VENUE 3 - GRAND OASIS CANCUN -->
+<section class="flex flex-col md:flex-row min-h-[600px]">
+<div class="w-full md:w-[60%] h-96 md:h-auto bg-cover bg-center" data-alt="Grand resort with extensive beachfront and entertainment" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAhxR4VUvJK_NKdbZtRGDZxcPXfbIjLLQ35ugg-zntV0O2WvEpU2nHAxZWi4bUIEWchr8-xLs3xEB5IhwggSXoKNBW6veFdIcWXlfOpGMcooRTcvImfJf8XzyVHHd7Z1kbM9a8oiYIjq4OXOUWXVM8rhXdEfxvaFKjkm2YiUpxZG1PwqncwiY2Ke6m2-i0FpYw_OFW8ZsvHiSWGu8y4fM6mVNgUafEXltbV4qJbPSl305r2BB3ruHfpgnkBKB0JCgZs25YcMrYxqcpG')"></div>
+<div class="w-full md:w-[40%] bg-sand dark:bg-navy/50 p-12 md:p-20 flex flex-col justify-center">
+<span class="inline-block bg-primary text-white text-[10px] font-bold tracking-widest uppercase px-3 py-1 mb-6 rounded-sm w-fit">Entertainment Hub</span>
+<h3 class="font-serif text-4xl text-navy dark:text-white mb-6">Grand Oasis Cancun</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8">
+                Where energy meets the ocean. Our most vibrant property is ideal for larger wedding groups who crave world-class entertainment, live music, and a festive Caribbean atmosphere.
+            </p>
+<div class="grid grid-cols-2 gap-6 mb-10">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">groups</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Large Groups</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">music_note</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Live Music</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">local_bar</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Poolside Bar</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">theater_comedy</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Daily Shows</span>
+</div>
+</div>
+<button class="border-b-2 border-teal text-teal font-bold text-sm tracking-widest uppercase pb-1 hover:text-navy dark:hover:text-white transition-all w-fit">Explore Venue</button>
+</div>
+</section>
+<!-- 7. VENUE 4 - GRAND OASIS PALM -->
+<section class="flex flex-col md:flex-row-reverse min-h-[600px]">
+<div class="w-full md:w-[60%] h-96 md:h-auto bg-cover bg-center" data-alt="Family friendly resort with calm shallow waters" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDJr-89Ec171MjNWcZWl8HF9uEKPTH6G_E8kC8VQ5QiE_zNuQ1ADZ15hT28E6XqfkTJn0F18oJpGSygFi1meVdo9KBJASaLvYGxU6fKeOzmMePlIAMPs2nTSarh-I5f3L-Dcb6SPe5XiP-BsrNv_585oVPl-5cs0k5Y_p6eiYlw9lUQoVs3ELR-dsHJLxEKAZBzeGuS2eO8JRfHZTsfgS_Jr2gSd8Tzvbmtn5XfUArfojg9KKTkV_yLQnQYdovlP0qa_l2HKgbfa0tb')"></div>
+<div class="w-full md:w-[40%] bg-white dark:bg-navy p-12 md:p-20 flex flex-col justify-center">
+<span class="inline-block bg-teal text-white text-[10px] font-bold tracking-widest uppercase px-3 py-1 mb-6 rounded-sm w-fit">Family Centric</span>
+<h3 class="font-serif text-4xl text-navy dark:text-white mb-6">Grand Oasis Palm</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8">
+                The perfect choice for multi-generational weddings. With shallow, turquoise waters and endless activities for children, everyone from toddlers to grandparents will enjoy the celebration.
+            </p>
+<div class="grid grid-cols-2 gap-6 mb-10">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">family_restroom</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Family Friendly</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">waves</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Calm Waters</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">pool</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Kid's Pools</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal">child_care</span>
+<span class="text-sm font-medium text-navy dark:text-slate-300">Kids Club</span>
+</div>
+</div>
+<button class="border-b-2 border-teal text-teal font-bold text-sm tracking-widest uppercase pb-1 hover:text-navy dark:hover:text-white transition-all w-fit">Explore Venue</button>
+</div>
+</section>
+<!-- 8. COMPARISON MATRIX -->
+<section class="py-24 px-6 bg-sand dark:bg-navy/80">
+<div class="max-w-6xl mx-auto">
+<h3 class="font-serif text-4xl text-navy dark:text-white text-center mb-16">Compare Our Venues</h3>
+<div class="overflow-x-auto">
+<table class="w-full border-collapse">
+<thead>
+<tr class="border-b border-navy/10 dark:border-white/10">
+<th class="p-6 text-left font-serif text-xl text-navy dark:text-white">Feature</th>
+<th class="p-6 text-center font-serif text-xl text-navy dark:text-white">The Pyramid</th>
+<th class="p-6 text-center font-serif text-xl text-navy dark:text-white">The Sens</th>
+<th class="p-6 text-center font-serif text-xl text-navy dark:text-white">Grand Oasis</th>
+<th class="p-6 text-center font-serif text-xl text-navy dark:text-white">Oasis Palm</th>
+</tr>
+</thead>
+<tbody class="text-slate-600 dark:text-slate-400">
+<tr class="border-b border-navy/5 dark:border-white/5">
+<td class="p-6 font-bold text-xs uppercase tracking-widest text-navy dark:text-slate-300">Tier</td>
+<td class="p-6 text-center">Ultra-Luxury</td>
+<td class="p-6 text-center">Boutique Luxury</td>
+<td class="p-6 text-center">Vibrant Premium</td>
+<td class="p-6 text-center">Family Premium</td>
+</tr>
+<tr class="border-b border-navy/5 dark:border-white/5">
+<td class="p-6 font-bold text-xs uppercase tracking-widest text-navy dark:text-slate-300">Vibe</td>
+<td class="p-6 text-center">Sophisticated</td>
+<td class="p-6 text-center">Romantic</td>
+<td class="p-6 text-center">Energetic</td>
+<td class="p-6 text-center">Relaxed</td>
+</tr>
+<tr class="border-b border-navy/5 dark:border-white/5">
+<td class="p-6 font-bold text-xs uppercase tracking-widest text-navy dark:text-slate-300">Max Guests</td>
+<td class="p-6 text-center">400</td>
+<td class="p-6 text-center">150</td>
+<td class="p-6 text-center">1000+</td>
+<td class="p-6 text-center">300</td>
+</tr>
+<tr class="border-b border-navy/5 dark:border-white/5">
+<td class="p-6 font-bold text-xs uppercase tracking-widest text-navy dark:text-slate-300">Best For</td>
+<td class="p-6 text-center">Gala Weddings</td>
+<td class="p-6 text-center">Elopements</td>
+<td class="p-6 text-center">Large Parties</td>
+<td class="p-6 text-center">Family Reunions</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- 9. MAP SECTION -->
+<section class="h-[500px] relative bg-slate-200 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center grayscale opacity-60" data-alt="Stylized map illustration of Cancun Hotel Zone" data-location="Cancun, Mexico" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBvt1g78VM-Bb8Q0cJ5QHB4Zp-GRWHgSbnC7AwO8OQESpg895PiymMpOPQRa3n21q44piIME_WqKn44nSDOBLdtzZyPc7v35_mGCkJuFMFmAigypSjgs-WG9T1z1-tJe08DAvWvp78DZpSSasf-tzqPeMM8dOi3Tj6oyl1kCFqbPuKCC8PI1lw2iqUuVCDXU4BhYKIjtWnHhv0dYD3kgRaq7EcUZyENyZ8_XID869jyis0GCut6K1-pOKIT6km64J3lMiuKCCJLsQtR')"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="relative w-full max-w-4xl h-full">
+<!-- Pins -->
+<div class="absolute top-[40%] left-[60%] flex flex-col items-center">
+<span class="material-symbols-outlined text-gold drop-shadow-lg">location_on</span>
+<span class="text-[10px] font-bold uppercase bg-white px-2 py-1 rounded shadow-md mt-1">The Pyramid</span>
+</div>
+<div class="absolute top-[35%] left-[55%] flex flex-col items-center">
+<span class="material-symbols-outlined text-gold drop-shadow-lg">location_on</span>
+<span class="text-[10px] font-bold uppercase bg-white px-2 py-1 rounded shadow-md mt-1">The Sens</span>
+</div>
+<div class="absolute top-[45%] left-[65%] flex flex-col items-center">
+<span class="material-symbols-outlined text-gold drop-shadow-lg">location_on</span>
+<span class="text-[10px] font-bold uppercase bg-white px-2 py-1 rounded shadow-md mt-1">Grand Oasis</span>
+</div>
+<div class="absolute top-[20%] left-[45%] flex flex-col items-center">
+<span class="material-symbols-outlined text-gold drop-shadow-lg">location_on</span>
+<span class="text-[10px] font-bold uppercase bg-white px-2 py-1 rounded shadow-md mt-1">Oasis Palm</span>
+</div>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur px-8 py-4 rounded-xl shadow-2xl border border-gold/20">
+<p class="font-serif text-navy italic text-center">Centrally located in the heart of Cancun's Hotel Zone</p>
+</div>
+</section>
+<!-- 10. CTA SECTION -->
+<section class="py-24 bg-navy text-white text-center">
+<div class="max-w-3xl mx-auto px-6">
+<h2 class="font-serif text-4xl md:text-5xl mb-6">Not sure which venue is right for you?</h2>
+<p class="text-slate-400 text-lg mb-12">Our luxury wedding planners are available to provide personalized tours and customized proposals tailored to your vision.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-teal hover:bg-teal/90 text-white px-10 py-4 rounded-full font-bold text-sm uppercase tracking-widest transition-all">
+                    Schedule a Virtual Tour
+                </button>
+<button class="border border-white/30 hover:bg-white/10 text-white px-10 py-4 rounded-full font-bold text-sm uppercase tracking-widest transition-all">
+                    Request a Proposal
+                </button>
+</div>
+</div>
+</section>
+<!-- 11. FOOTER -->
+<footer class="bg-navy border-t border-white/10 py-20 px-6">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-gold text-2xl">diamond</span>
+<h2 class="font-serif text-xl font-bold tracking-tight text-white uppercase">O Weddings</h2>
+</div>
+<p class="text-slate-400 text-sm leading-relaxed mb-6">Redefining luxury Caribbean weddings with curated experiences across our four signature resorts in Cancun.</p>
+<div class="flex gap-4">
+<a class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-gold transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-gold transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">photo_camera</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-white font-bold text-xs uppercase tracking-[0.2em] mb-8">Explore</h4>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li><a class="hover:text-gold transition-colors" href="#">The Pyramid Cancun</a></li>
+<li><a class="hover:text-gold transition-colors" href="#">The Sens Cancun</a></li>
+<li><a class="hover:text-gold transition-colors" href="#">Grand Oasis Cancun</a></li>
+<li><a class="hover:text-gold transition-colors" href="#">Grand Oasis Palm</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold text-xs uppercase tracking-[0.2em] mb-8">Planning Tools</h4>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li><a class="hover:text-gold transition-colors" href="#">Cost Guide</a></li>
+<li><a class="hover:text-gold transition-colors" href="#">Wedding Packages</a></li>
+<li><a class="hover:text-gold transition-colors" href="#">Ceremony Options</a></li>
+<li><a class="hover:text-gold transition-colors" href="#">Virtual Tours</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold text-xs uppercase tracking-[0.2em] mb-8">Newsletter</h4>
+<p class="text-slate-400 text-sm mb-4">Subscribe for luxury wedding inspiration.</p>
+<div class="flex">
+<input class="bg-white/5 border border-white/10 rounded-l-lg px-4 py-2 text-sm w-full focus:outline-none focus:border-gold" placeholder="Email Address" type="email"/>
+<button class="bg-gold text-navy px-4 py-2 rounded-r-lg">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-500 text-[10px] uppercase tracking-widest">© 2024 O Weddings by Oasis. All rights reserved.</p>
+<div class="flex gap-8 text-slate-500 text-[10px] uppercase tracking-widest">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</body></html>
